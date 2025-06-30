@@ -1,48 +1,22 @@
-##🎓 Student Grade Management System
-- A simple Python console-based application to manage student grades. It allows users to add, update, delete, and view student records     using a menu-driven interface.
+📝 Student Grade Management System
+A basic Python program to manage student grades using a menu-driven interface.
 
-- 📋 Features
+🚀 Features
+Add, update, delete student grades
 
-  ✅ Add new student and their grade
-  🔁 Update existing student's grade
-  ❌ Delete a student record
-  📃 Display all student records
-  🚪 Exit the program gracefully
+View all student records
 
-No external libraries required.
+Exit the system
 
-- 🧑‍💻 Usage
+🧠 Python Concepts Used
+Dictionaries (student_grades = {})
 
-  When the program runs, you’ll be presented with a menu:
-  | STUDENT GRADE MANAGEMENT SYSTEM |
-  1. Add student.
-  2. Update student.
-  3. Delete student.
-  4. Display all students.
-  5. Exit.
-  Example Workflow:
-  Enter the number of the command : 1
-  Enter the name of the student : Alice
-  Enter student's grades : 92
-  Added Alice with 92 grade.
-  
-  Enter the number of the command : 4
-  Alice : 92
+Functions (def add_student():)
 
-- 🧾 Notes
+Conditional statements (if, elif, else)
 
-  Student names are used as unique keys in a dictionary.
-  Grades must be entered as integers.
-  No persistent storage (like files or databases) is used in this version — data exists only while the program is running.
+Loops (while loop)
 
-- 🧱 Future Improvements (Suggestions)
+User input (input())
 
-  Add data persistence using files or databases.
-  Input validation (e.g., prevent invalid grade inputs).
-  GUI version using Tkinter or PyQt.
-  Support for multiple subjects and average grade calculation.
-
-- 🖊️ Author
-
-  Made by Arya Madiwale.
-  Feel free to modify and expand the project as you like!
+Type casting (int())
